@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
+import Map from "../components/map";
 
 const Home: NextPage = () => {
-  return (
-    <div className="bg-red-500">
-      <h1 className="text-red-50">it works</h1>
-    </div>
-  );
+  return <Map latitude={37.5642135} longitude={127.0016985} />;
 };
 
 export default Home;
